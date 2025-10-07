@@ -1,0 +1,177 @@
+/* --------RESET------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/* --------UTILITYSSS----------- */
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.space-beetwen{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tx-white{
+    color: white;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.fw-900{
+    font-weight: 900;
+}
+/* ---------TAG--------- */
+
+
+ul.categorie {
+    font-weight: 500;
+}
+
+header{
+    background-color: orange;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-width: 20%;
+}
+
+.oggetti{  
+    font-weight: 700;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.card-container section{
+    width: 30%;
+
+    position: relative;
+
+}
+
+.foto{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+
+.discount{
+    background-color: red;
+    font-weight: 600;
+    color: white;
+    padding: 2.5px 10px;
+    font-size: 0.8rem;
+}
+
+.sostenibilita{
+    background-color: green;
+    font-weight: 600;
+    color: white;
+    padding: 2.5px 10px;
+    font-size: 0.8rem;
+}
+
+.heart{
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 10px 15px;
+    font-size: 2rem;
+
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.marca{
+    font-size: 0.8rem;
+}
+
+.nome{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.prezzo{
+    font-weight: 700;
+    color: red;
+    display: inline-block;
+}
+
+.old-prezzo{
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+/* -------HOVER------- */
+
+.foto img:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+.card-container section:hover .foto img:first-child{ 
+    z-index: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
